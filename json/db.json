@@ -1,0 +1,46 @@
+{
+  "results": [
+    {
+      "id": 1,
+      "screen": "Lorem Lipsum",
+      "keyboard": "Lorem Lipsum",
+      "mouse": "Lorem Lipsum",
+      "CPU": "Lorem Lipsum"
+    },
+    {
+      "id": 2,
+      "screen": "Lorem Lipsum",
+      "keyboard": "Lorem Lipsum",
+      "mouse": "Lorem Lipsum",
+      "CPU": "Lorem Lipsum"
+    },
+    {
+      "id": 3,
+      "screen": "Lorem Lipsum",
+      "keyboard": "Lorem Lipsum",
+      "mouse": "Lorem Lipsum",
+      "CPU": "Lorem Lipsum"
+    },
+    {
+      "id": 4,
+      "screen": "Lorem Lipsum",
+      "keyboard": "Lorem Lipsum",
+      "mouse": "Lorem Lipsum",
+      "CPU": "Lorem Lipsum"
+    },
+    {
+      "id": 5,
+      "screen": "Lorem Lipsum",
+      "keyboard": "Lorem Lipsum",
+      "mouse": "Lorem Lipsum",
+      "CPU": "Lorem Lipsum"
+    },
+    {
+      "screen": "Edit2",
+      "keyboard": "New Lipsum",
+      "mouse": "New Lipsum",
+      "CPU": "New Lipsum",
+      "id": 6
+    }
+  ]
+}

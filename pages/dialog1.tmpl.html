@@ -1,0 +1,41 @@
+<md-dialog aria-label="Mango (Fruit)"  flex="50">
+    <form ng-cloak ng-submit="addItem()" class="form" novalidate autocomplete="off">
+        <md-toolbar>
+            <div class="md-toolbar-tools">
+                <h2>Add item</h2>
+                <span flex></span>
+                <md-button class="md-icon-button" ng-click="cancel()">
+                    <md-icon md-svg-src="img/icons/ic_close_24px.svg" aria-label="Close dialog"></md-icon>
+                </md-button>
+            </div>
+        </md-toolbar>
+
+        <md-dialog-content>
+            <div class="md-dialog-content">
+                <div layout="column">
+                    <md-input-container>
+                        <label>Screen</label>
+                        <input type="text" name="screen" ng-model="screen" required>
+                    </md-input-container>
+                    <md-input-container>
+                        <label>Keyboard</label>
+                        <input type="text" name="keyboard" ng-model="keyboard" required>
+                    </md-input-container>
+                    <md-input-container>
+                        <label>Mouse</label>
+                        <input type="text" name="mouse" ng-model="mouse" required>
+                    </md-input-container>
+                    <md-input-container>
+                        <label>CPU</label>
+                        <input type="text" name="CPU" ng-model="CPU" required>
+                    </md-input-container>
+                </div>
+                <md-card-content>
+                    <md-card-actions layout="row" layout-align="end center">
+                        <md-button type="submit" class="md-raised md-primary">Submit</md-button>
+                    </md-card-actions>
+                </md-card-content>
+            </div>
+        </md-dialog-content>
+    </form>
+</md-dialog>
